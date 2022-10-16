@@ -34,3 +34,52 @@
     --nord14: #A3BE8C;
     --nord15: #B48EAD;
 }
+
+@-moz-document regexp("https://elearning\.uni-bremen.de/.*") {
+  a {
+    color: var(--nord9) !important;
+    transition-duration: 0.2s !important;
+  }
+
+  a:hover, a:focus {
+    color: var(--nord7) !important;
+  }
+
+  div#layout_container,
+  div#layout_container > div {
+    background-color: var(--nord0) !important;
+    background-image: none !important;
+  }
+  
+  div#layout_content {
+    padding-left: 5px !important;
+    border-left: 5px solid var(--nord1) !important;
+  }
+
+  div#flex-header {
+    background-color: var(--nord2) !important;
+  }
+
+  div.tabs_wrapper, div.tabs_wrapper > * {
+    background-color: var(--nord1) !important;
+  }
+
+  ul#tabs > li {
+    background-color: var(--nord1) !important;
+  }
+
+  header,
+  article.studip.toggle,
+  article.studip.toggle.open {
+    background-color: var(--nord1) !important;
+    border-color: var(--nord1) !important;
+  }
+
+  span.news_date {
+    color: var(--nord4) !important;
+  }
+
+  span.news_visits {
+    color: var(--nord14) !important;
+  }
+}
