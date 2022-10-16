@@ -1,0 +1,36 @@
+/* This work is released into the public domain under the terms
+ * of the creative commons legal code CC0 1.0 Universal.
+ *
+ * Please review the LICENSE.md file at <https://l-zeuch/studip-nord>
+ * for more information.
+ */
+
+/*
+ * Set up the nord palette, as per
+ * https://www.nordtheme.com/docs/colors-and-palettes
+ */
+:root {
+    /* Polar Night */
+    --nord0:  #2E3440;
+    --nord1:  #3B4252;
+    --nord2:  #434C5E;
+    --nord3:  #4C566A;
+
+    /* Snow Storm */
+    --nord4:  #D8DEE9;
+    --nord5:  #E5E9F0;
+    --nord6:  #ECEFF4;
+
+    /* Frost */
+    --nord7:  #8FBCBB;
+    --nord8:  #88C0D0;
+    --nord9:  #81A1C1;
+    --nord10: #5E81AC;
+
+    /* Aurora */
+    --nord11: #BF616A;
+    --nord12: #D08770;
+    --nord13: #EBCB8B;
+    --nord14: #A3BE8C;
+    --nord15: #B48EAD;
+}
