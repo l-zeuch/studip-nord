@@ -50,7 +50,7 @@
     background-color: var(--nord0) !important;
     background-image: none !important;
   }
-  
+
   div#layout_content {
     padding-left: 5px !important;
     border-left: 5px solid var(--nord1) !important;
@@ -81,5 +81,14 @@
 
   span.news_visits {
     color: var(--nord14) !important;
+  }
+/* TODO: revisit this accent */
+  li.studip-widget-wrapper > div > div:first-child {
+  color: var(--nord5) !important;
+  background-color: var(--nord9) !important;
+  }
+
+  li.studip-widget-wrapper > div > div:last-child {
+      background-color: var(--nord2) !important;
   }
 }
