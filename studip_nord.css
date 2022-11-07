@@ -45,50 +45,124 @@
     color: var(--nord7) !important;
   }
 
-  div#layout_container,
-  div#layout_container > div {
+  h1, h2 {
+    color: var(--nord6) !important;
+  }
+
+  h3, h4  {
+    color: var(--nord5) !important;
+  }
+
+  h5, h6 {
+    color: var(--nord4) !important;
+  }
+
+  div {
+    color: var(--nord4) !important;
+  }
+
+  p, li, strong {
+    color: var(--nord4) !important;
+  }
+
+  /* Navigation and base stuff */
+  #layout_container,
+  #layout_container > div {
     background-color: var(--nord0) !important;
     background-image: none !important;
   }
 
-  div#layout_content {
+  #layout_content {
     padding-left: 5px !important;
     border-left: 5px solid var(--nord1) !important;
   }
 
-  div#flex-header {
+  #flex-header {
     background-color: var(--nord2) !important;
   }
 
-  div.tabs_wrapper, div.tabs_wrapper > * {
+  .tabs_wrapper, .tabs_wrapper > * {
     background-color: var(--nord1) !important;
   }
 
-  ul#tabs > li {
+  #tabs > li {
     background-color: var(--nord1) !important;
   }
 
+  .ui-dialog {
+    background-color: var(--nord2) !important;
+  }
+
+  .ui-resizable-handle {
+    background-color: var(--nord0) !important;
+  }
+
+  .ui-dialog-buttonpane {
+    background-color: var(--nord2) !important;
+  }
+
+  /* search */
+  #globalsearch-searchbar > #globalsearch-list {
+    background-color: var(--nord3) !important;
+  }
+
+  #globalsearch-list > article > section > header {
+    background-color: var(--nord3) !important;
+    color: var(--nord8) !important;
+  }
+
+  #notification_marker {
+    color: var(--nord3) !important;
+  }
+
+  /* General widget styling */
+  .studip-widget {
+    border-color: var(--nord2) !important;
+  }
+
+  /* generic widget header */
+  .studip-widget-wrapper > div > div:first-child {
+  color: var(--nord5) !important;
+  background-color: var(--nord3) !important;
+  }
+
+  /* generic widget body */
+  .studip-widget-wrapper > div > div:nth-of-type(2) {
+      background-color: var(--nord2) !important;
+  }
+
+  /* Schedule widget */
+  .schedule_hours {
+    background-color: var(--nord2) !important;
+  }
+
+  #schedule_data > thead > tr > td {
+    background-color: var(--nord2) !important;
+  }
+  
+  /* News widget */
   header,
-  article.studip.toggle,
-  article.studip.toggle.open {
+  .studip.toggle,
+  .studip.toggle.open {
     background-color: var(--nord1) !important;
     border-color: var(--nord1) !important;
   }
-
-  span.news_date {
+  
+  .news_date {
     color: var(--nord4) !important;
   }
 
-  span.news_visits {
+  .news_visits {
     color: var(--nord14) !important;
   }
-/* TODO: revisit this accent */
-  li.studip-widget-wrapper > div > div:first-child {
-  color: var(--nord5) !important;
-  background-color: var(--nord9) !important;
+
+  /* Messages */
+  .ui-dialog-content {
+    background-color: var(--nord2) !important;
   }
 
-  li.studip-widget-wrapper > div > div:last-child {
-      background-color: var(--nord2) !important;
+  .message_body {
+    background-color: var(--nord1) !important;
   }
+
 }
