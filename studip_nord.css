@@ -36,6 +36,10 @@
 }
 
 @-moz-document regexp("https://elearning\.uni-bremen.de/.*") {
+
+  /*
+   * DOCUMENT
+   */
   a {
     color: var(--nord9) !important;
     transition-duration: 0.2s !important;
@@ -65,7 +69,9 @@
     color: var(--nord4) !important;
   }
 
-  /* Navigation and base stuff */
+  /*
+   * NAVIGATION
+   */
   #layout_container,
   #layout_container > div {
     background-color: var(--nord0) !important;
@@ -89,6 +95,9 @@
     background-color: var(--nord1) !important;
   }
 
+  /*
+   * UI
+   */
   .ui-dialog {
     background-color: var(--nord2) !important;
   }
@@ -101,7 +110,9 @@
     background-color: var(--nord2) !important;
   }
 
-  /* search */
+  /* 
+   * SEARCH
+   */
   #globalsearch-searchbar > #globalsearch-list {
     background-color: var(--nord3) !important;
   }
@@ -114,6 +125,10 @@
   #notification_marker {
     color: var(--nord3) !important;
   }
+
+  /*
+   * WIDGETS
+   */
 
   /* General widget styling */
   .studip-widget {
@@ -156,7 +171,29 @@
     color: var(--nord14) !important;
   }
 
-  /* Messages */
+  /*
+   * MESSAGES
+   */
+
+  /* Message Inbox/Outbox */
+  #messages > thead > tr > th {
+    background-color: var(--nord1) !important;
+    color: var(--nord4) !important;
+  }
+
+  #messages > tbody > tr {
+    transition-duration: 0.3s !important;
+  }
+
+  #messages > tbody > tr.unread {
+    background-color: var(--nord2) !important;
+  }
+
+  #messages > tbody > tr:hover {
+    background-color: var(--nord3) !important;
+  }
+
+  /* Message popup */
   .ui-dialog-content {
     background-color: var(--nord2) !important;
   }
@@ -164,5 +201,4 @@
   .message_body {
     background-color: var(--nord1) !important;
   }
-
 }
