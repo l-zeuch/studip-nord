@@ -101,6 +101,10 @@
   .ui-dialog {
     background-color: var(--nord2) !important;
   }
+  
+  .ui-dialog-content {
+    background-color: var(--nord2) !important;
+  }
 
   .ui-resizable-handle {
     background-color: var(--nord0) !important;
@@ -194,9 +198,6 @@
   }
 
   /* Message popup */
-  .ui-dialog-content {
-    background-color: var(--nord2) !important;
-  }
 
   .message_body {
     background-color: var(--nord1) !important;
